@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--네이게이션 바 안의 메뉴 만들어주기 위한 레이아웃-->
+<!--메뉴-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<!--그룹-->
+<group android:checkableBehavior="single"
+    >
+<!--각 아이템들-->
+    <item android:id="@+id/empty0"
+        android:title="" />
+<item
+android:id="@+id/first_navigation_item" android:title=""
+app:actionLayout="@layout/one_layout"
+    />
+<!--id가 empty인 것은 여백주는 역할만 함. 중요x-->
+    <item android:id="@+id/empty1"
+        android:title=""
+        />
+
+    <!--<item android:id="@+id/empty11"-->
+        <!--android:title=""-->
+        <!--/>-->
+
+<item
+android:id="@+id/second_navigation_item" android:title=""
+    app:actionLayout="@layout/two_layout"
+    />
+
+
+    <item android:id="@+id/empty2"
+        android:title=""
+        />
+
+
+    <!--<item android:id="@+id/empty22"-->
+        <!--android:title=""-->
+        <!--/>-->
+
+<item
+android:id="@+id/third_navigation_item" android:title=""
+    app:actionLayout="@layout/three_layout"
+/>
+
+
+    <item android:id="@+id/empty3"
+        android:title=""
+        />
+
+
+
+    <item
+        android:id="@+id/four_navigation_item" android:title=""
+        app:actionLayout="@layout/four_layout"
+        />
+
+
+    <item android:id="@+id/empty4"
+        android:title=""
+        />
+
+    <!--<item android:id="@+id/empty44"-->
+        <!--android:title=""-->
+        <!--/>-->
+
+    <item
+        android:id="@+id/five_navigation_item" android:title=""
+        app:actionLayout="@layout/five_layout"
+        />
+
+
+    <item android:id="@+id/empty5"
+        android:title=""
+        />
+
+    <!--<item android:id="@+id/empty55"-->
+        <!--android:title=""-->
+        <!--/>-->
+</group>
+
+</menu>
